@@ -173,6 +173,8 @@ pagina4 = html.Div([html.Br(),
 
 app = Dash(external_stylesheets= [dbc.themes.BOOTSTRAP], title = 'Dashboard Obra Pública')
 
+server = app.server
+
 app.layout = html.Div([html.H1(id= 'subtitulo'),
                        dcc.Location(id='url'),
                       dbc.NavbarSimple([dbc.NavLink('Portada', href= '/', className= 'boton', id= 'bot1'),
