@@ -648,4 +648,4 @@ def mapas(valor, valor2):
         
             return graf, grafic
 
-app.run()
+app.run(debug=True)
