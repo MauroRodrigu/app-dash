@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+
+body {background-color:RGB(55,187,237)}
+
+.card, .main-svg, .ag-theme-alpine {border-radius: 10px; box-shadow: 10px 10px 3px 1px; border: 1px solid black}
+
+.boton {font-family:Encode Sans}
+
+.boton:hover {background-color:RGB(233,233,233); color: black}
+
+.boton:active {background-color:navy; color: white}
+
+.boton2 {font-family:Encode Sans; font-size:10pt; font-weight:bold; color:white; width: 50%; left:10%;}
+
+.boton2:hover {background-color:white; color: RGB(55,187,237)}
+
+.Select-control {background-color:lightblue}
+
