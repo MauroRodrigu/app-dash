@@ -9,6 +9,8 @@ import dash_ag_grid as dag
 app = Dash(__name__, use_pages = True, external_stylesheets= [dbc.themes.BOOTSTRAP, "https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap"], title = 'Dashboard Obra Pública',
           meta_tags=[{'name':'viewport','content':'width=device-width, initial-scale=1.0'}])
 
+server = app.server
+
 app.layout = html.Div([dbc.Row(html.H1(id= 'subtitulo',
                               style= {'font-family':'Encode Sans', 'width':'97%', 'font-weight':'bold', 
                                      'color': 'white'}), style= {'background-color':'RGB(55,187,237)'}),
